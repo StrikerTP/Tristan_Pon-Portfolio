@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0A192F;
+            color: #E5E7EB;
+            text-align: center;
+        }
+        header {
+            padding: 40px 20px;
+            background-color: #112240;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .container {
+            padding: 50px;
+        }
+        .button {
+            background-color: #64FFDA;
+            color: #0A192F;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .project-card {
+            background-color: #112240;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+        }
+        .footer {
+            padding: 20px;
+            background-color: #112240;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Web Developer | Designer | Tech Enthusiast</p>
+    </header>
+    
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate web developer who loves creating stunning and functional websites.</p>
+        <a href="#projects" class="button">View My Work</a>
+    </div>
+    
+    <div class="container" id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>A cool project description goes here.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>Another cool project description goes here.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>Yet another amazing project description.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Contact me at: your.email@example.com</p>
+    </div>
+</body>
+</html>
